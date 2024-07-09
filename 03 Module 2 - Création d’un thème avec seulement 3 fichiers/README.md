@@ -61,9 +61,9 @@ h1 { color:tomato}
     <?php 
    $query = new WP_Query([
     "post_type"  => "page",
-    "posts_per_page" => 2,
-    "order_by"  => "menu_order",
-    "order"  => "DESC"
+    "posts_per_page" => 4,
+    "orderby"  => "menu_order",
+    "order"  => "ASC" // DESC
     ] ); 
    if ( $query->have_posts() ) // si il y a des résultats dans la pile 
    {

@@ -9,3 +9,5 @@
   - ajouter le logo
   - ajouter une fav icon
   - ajouter le slogan
+- intégrer le plugin pour ordonancer les pages
+ https://wordpress.org/plugins/intuitive-custom-post-order/
