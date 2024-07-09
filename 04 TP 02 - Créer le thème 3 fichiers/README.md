@@ -1,4 +1,4 @@
-# TP 02 Créer un thème avec seulement 3 fichier
+# TP 02 Créer un thème avec seulement 3 fichiers
 - Créer le thème **landscape**
 - mettre en place le fichier **screenshot**
 - mettre en place le fichier **style.css**
