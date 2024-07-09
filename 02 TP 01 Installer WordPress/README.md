@@ -1,5 +1,7 @@
-# Objectif TP 1 MAIRIE
 
+
+# Objectif TP 1 MAIRIE
+![img](mairie.jpg)
 - Je souhaite 3 colonnes sur la home page
 	
 - Afficher dans la home la section Liens rapides au centre (Choose your interest )
