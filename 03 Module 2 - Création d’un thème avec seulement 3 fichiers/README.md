@@ -19,15 +19,58 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org
 Twenty Twenty-Two is distributed under the terms of the GNU GPL.
 */
+## du thème twentytwentytwo
+```css
+/*
+Theme Name: Le Kiwi de Bretagne
+Theme URI: 
+Author: Jean-Frédéric
+Author URI: 
+Description: Thème one page - simple et efficace.
+Requires at least: 5.9
+Tested up to: 6.5
+Requires PHP: 5.6
+Version: 1.01
+License: 
+License URI: 
+Text Domain: kiwi
+Tags: onepage, bootstrap
 
+*/
+h1 { color:tomato}
 ```
 # index.php
 ```php
- $query = new WP_Query([
-    "post_type" 	 	=> "page",
-    "posts_per_page" 	=> 2,
-    "order_by" 		=> "menu_order",
-    "order" 		=> "DESC" 
-    ]); 
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mon site</title>
+    <?php
+        $theme_url = get_stylesheet_directory_uri(); 
+    ?>
+    <link rel="stylesheet" href="<?=$theme_url?>/style.css">
+</head>
+<body>
+    <h1>Hello WordPress !</h1>
+    <?php 
+   $query = new WP_Query([
+    "post_type"  => "page",
+    "posts_per_page" => 2,
+    "order_by"  => "menu_order",
+    "order"  => "DESC"
+    ] ); 
+   if ( $query->have_posts() ) // si il y a des résultats dans la pile 
+   {
+      while( $query->have_posts() )
+      {
+         $query->the_post(); // enlever le résultat de la pile 
+         the_title() ; // affiche le titre de la page
+         echo '<br>'; 
+      } 
+   } 
+ ?>
+</body>
+</html>
 ```
