@@ -10,5 +10,5 @@
 - ajouter les liens vers les articles et les pages
 
 ```
-git clone https://github.com/seven-valley/teme-wp.git
+git clone https://github.com/seven-valley/themes.git
 ```
