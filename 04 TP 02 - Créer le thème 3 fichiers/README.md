@@ -1,5 +1,5 @@
 # TP 02 Créer un thème avec seulement 3 fichier
-
+- Créer le thème **landscape**
 - mettre en place le fichier **screenshot**
 - mettre en place le fichier **style.css**
 - intégrer la maquette dans le fichier **index.php**
