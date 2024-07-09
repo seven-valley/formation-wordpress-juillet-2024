@@ -26,6 +26,6 @@ https://dummyimage.com/300x200/ccc/444
 https://startbootstrap.com/
 
 ## la maquette bootstrap du theme landscape
-Template> landing Pages & Headers
+Template> landing Pages & Headers  
 https://startbootstrap.com/templates/landing-pages  
 https://startbootstrap.com/template/small-business  
