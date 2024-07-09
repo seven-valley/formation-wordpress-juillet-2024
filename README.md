@@ -21,3 +21,11 @@ https://compressor.io/
 ## Dummy Immage
 https://dummyimage.com/
 https://dummyimage.com/300x200/ccc/444
+
+## les maquettes bootstrap
+https://startbootstrap.com/
+
+## la maquette bootstrap du theme landscape
+Template> landing Pages & Headers
+https://startbootstrap.com/templates/landing-pages  
+https://startbootstrap.com/template/small-business  

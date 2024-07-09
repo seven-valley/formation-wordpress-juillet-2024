@@ -13,5 +13,5 @@
 	
 - Menu principal à gauche
 	
-- BONUS Ajouter les commerce  
+- BONUS Ajouter les commerces  
 - BONUS ajouter la météo  
