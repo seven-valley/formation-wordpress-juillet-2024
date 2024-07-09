@@ -3,7 +3,7 @@
 ## les thèmes WordPress
 https://themeforest.net/category/wordpress
 
-## Génerer un site web avec des fichiers README.md en Mark Down
+## génerer un site web avec des fichiers README.md en Mark Down
 https://docusaurus.io/docs
 
 ## Le format Mark Down
@@ -18,7 +18,7 @@ https://www.photopea.com/
 ## compresser vos images pour le SEO
 https://compressor.io/  
 
-## Dummy Immage
+## dummy Immage
 https://dummyimage.com/
 https://dummyimage.com/300x200/ccc/444
 
