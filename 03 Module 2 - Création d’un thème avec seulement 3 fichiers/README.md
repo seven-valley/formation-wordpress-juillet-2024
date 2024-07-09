@@ -21,7 +21,9 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org
 Twenty Twenty-Two is distributed under the terms of the GNU GPL.
 */
-## du thème twentytwentytwo
+```
+
+## du thème kiwi
 ```css
 /*
 Theme Name: Le Kiwi de Bretagne
