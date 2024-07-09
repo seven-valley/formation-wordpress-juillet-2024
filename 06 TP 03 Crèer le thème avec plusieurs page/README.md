@@ -8,3 +8,7 @@
 - Créer les pages **page.php** & **single.php**
   - ajouter la boucle simplifiée
 - ajouter les liens vers les articles et les pages
+
+```
+git clone https://github.com/seven-valley/teme-wp.git
+```
