@@ -16,3 +16,12 @@
  $serie = json_decode($json_data); 
  var_dump( $serie);
  ```
+
+ ```php
+  $base_url ='https://serie-nantes-default-rtdb.europe-west1.firebasedatabase.app/'; 
+ $api_url = 
+ $base_url.$database.'.json'; 
+ $json_data = file_get_contents($api_url); 
+ $series = json_decode($json_data);
+ var_dump($series);
+ ```
