@@ -1,6 +1,9 @@
-
+### Documentation WordPress
 https://developer.wordpress.org/  
   
+### lien crée un pluggin
+https://developer.wordpress.org/plugins/plugin-basics/
+
 # TP 06 synchro et plugin
 - Créer une tache add-serie.php
 - Ajouter 3 série
