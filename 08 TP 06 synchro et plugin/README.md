@@ -1,3 +1,4 @@
+
 # TP 06 synchro et plugin
 - Créer une tache add-serie.php
 - Ajouter 3 série
