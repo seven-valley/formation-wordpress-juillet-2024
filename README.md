@@ -29,3 +29,6 @@ https://startbootstrap.com/
 Template> landing Pages & Headers  
 https://startbootstrap.com/templates/landing-pages  
 https://startbootstrap.com/template/small-business  
+
+# tuto wp en anglais
+https://webdesign.tutsplus.com/
