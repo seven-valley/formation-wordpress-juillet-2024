@@ -18,7 +18,8 @@
  ```
 
  ```php
-  $base_url ='https://serie-nantes-default-rtdb.europe-west1.firebasedatabase.app/'; 
+ $database = "toto"; 
+$base_url ='https://serie-nantes-default-rtdb.europe-west1.firebasedatabase.app/'; 
  $api_url = 
  $base_url.$database.'.json'; 
  $json_data = file_get_contents($api_url); 
