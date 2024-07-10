@@ -10,3 +10,9 @@
 # plugin
 - Mettre le CPT Custom Série dans un plugin
 
+```php
+ $api_url='https://www.omdbapi.com/?apikey=efdc2275&t=dark%20matter&type=series';
+ $json_data = file_get_contents($api_url); 
+ $serie = json_decode($json_data); 
+ var_dump( $serie);
+ ```
