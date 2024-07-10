@@ -28,3 +28,44 @@ $base_url ='https://serie-nantes-default-rtdb.europe-west1.firebasedatabase.app/
  $series = json_decode($json_data);
  var_dump($series);
  ```
+
+ **add-serie.php**
+ ```php
+ <h1> DEBUG CRON TAB 2<h1>
+      <?php
+      require_once 'wp-load.php';
+        //--------------------------------------------
+        // EFFACER TOUTES LES SERIES !!!
+        //--------------------------------------------
+        $allposts = get_posts(
+         [
+            'post_type' => 'serie',
+            'numberposts' => -1
+         ]
+      );
+      foreach ($allposts as $s) {
+         wp_delete_post($s->ID, true);
+      }
+      //--------------------------------------------
+      $tab=[
+      'https://www.omdbapi.com/?apikey=efdc2275&t=dark%20matter&type=series',
+      'https://www.omdbapi.com/?apikey=efdc2275&t=arnold&type=series',
+      'https://www.omdbapi.com/?apikey=efdc2275&t=toto&type=series'];
+
+      foreach ($tab as $url){
+      $json_data = file_get_contents($url);
+      $serie = json_decode($json_data);
+    
+      $id= wp_insert_post([
+         'post_title' => $serie->Title,
+         'post_status' =>  'publish',
+         'post_type' => 'serie',
+      ]);
+      $test =wp_set_post_terms($id, [4], 'serie-etiquette');
+      var_dump($test);
+      update_field('image_api',$serie->Poster,$id);
+
+   }
+      
+      ?>
+ ```
