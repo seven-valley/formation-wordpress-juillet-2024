@@ -72,3 +72,29 @@ $base_url ='https://serie-nantes-default-rtdb.europe-west1.firebasedatabase.app/
       
       ?>
  ```
+
+ # exemple page contact
+
+ ```php
+ 
+<?php  get_header();   ?>
+<div class="container">
+
+<?php
+while(have_posts()):
+ the_post();
+ ?>
+   <h1><?php the_title() ?></h1>
+   <p><?php the_content() ?></p>
+   <div class="col-4">
+   <form action="envoyer.php" method="post">
+    <input class="form-control" name="Prénom" placeholder="Prénom">
+    <buton type="submit" class="btn btn-primary my-3"> Valider</buton>
+   </form>
+   </div>
+ <?php
+endwhile;
+?>
+</div>
+<?php   get_footer(); ?>
+```
